@@ -12,3 +12,4 @@ Log into Microsoft Office Home Page https://portal.office.com/ using the Usernam
 
 ## Environment Setup
 Click the button below to set up the tenant for use during this lab:
+### Setup Environment
