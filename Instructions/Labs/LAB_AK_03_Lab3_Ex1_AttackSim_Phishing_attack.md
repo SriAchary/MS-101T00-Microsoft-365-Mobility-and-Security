@@ -134,7 +134,7 @@ In this task, you will verify whether Adatum has received the email that you con
 
 6. Close the **Welcome** window.
 
-7. In Lynne's Outlook Inbox, you should see the spear phishing email that was sent by the Attack Simulator. Select the email to open it and review the details in the body of the message. 
+7. In Lynne's Outlook Inbox, you should see the spear phishing email with the subject **2 Failed Messages to you** that was sent by the Attack Simulator. Select the email to open it and review the details in the body of the message. 
 
 	**NOTE!** It can take up to 15 minutes for the email to arrive.  Wait for the email before proceeding.
 
