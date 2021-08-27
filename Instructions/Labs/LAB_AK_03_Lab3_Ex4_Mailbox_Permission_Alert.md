@@ -39,7 +39,7 @@ In this exercise you will configure and test an alert that will notify Lynne Rob
 
 9. Select **Next.**
 
-10. Review your settings. When everything is correct, scroll to the bottom of the window and verify the **Yes, turn it on right away** option is selected (select it if necessary) and then select **Finish**.
+10. Review your settings. When everything is correct, scroll to the bottom of the window and under the **Do you want to turn the policy on right away?** verify whether the **Yes, turn it on right away** option is selected (select it if necessary) and then select **Finish**.
 
 11. Verify your new alert policy appears in the list on the **Alert policies** page and its **Status** in **On**.
 
