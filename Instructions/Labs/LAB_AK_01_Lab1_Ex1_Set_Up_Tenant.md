@@ -55,7 +55,7 @@ In your role as Holly Dickson, Adatum's Enterprise Administrator, you have been 
 
     - City: **Redmond**
 
-    - State or province: **Washington**
+    - Use the drop down arrow and choose State or province: **Washington**
 
     - ZIP or postal code: **98052**
 
