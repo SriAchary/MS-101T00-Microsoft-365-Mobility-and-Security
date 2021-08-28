@@ -76,7 +76,7 @@ In the prior task, you configured an alert that will notify Lynne Robbins when F
 
 	**Note:** In can take up to 15 minutes or so for the email to be received in Lynne's Inbox. 
 
-11. Open the email and review the contents. Scroll to the bottom of the email and select the **View alert details** button. This opens the **Security and Compliance Center**, displays the **View alerts** window, and opens the **Mailbox permission change** alert.If not, in your browser, enter **https://protection.office.com**, select **Alert** in the left hand navigation pane and select **View alerts**. <br/>
+11. Open the email and review the contents. Scroll to the bottom of the email and select the **View alert details** button under the **Office 365 Security & Compliance**. This opens the **Security and Compliance Center**, displays the **View alerts** window, and opens the **Mailbox permission change** alert. <br/>
 
 	Scroll down through the **Mailbox permission change** alert and review all the information. When you are done, select **Close** to close the **Mailbox permission change** alert, then close the **View alerts** tab in your browser.
 
