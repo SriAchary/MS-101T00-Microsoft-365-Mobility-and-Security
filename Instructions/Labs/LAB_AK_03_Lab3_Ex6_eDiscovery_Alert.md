@@ -54,7 +54,7 @@ To test this default alert, Holly Dickson will create an eDiscovery search. This
 
 	**Note:** While you could have simply selected the **All locations** option, you were asked to select a specific set of locations just so that you could see all the various locations that can possibly be searched in an eDiscovery search.
 
-7.  In the **Conditions** pane that appears, enter **Confidential** in the **Keywords** field and then select **Next**. Review the search content and select **Submit**  <br/>
+7.  In the **Conditions** pane that appears, enter **Confidential** in the **Keywords** field and then select **Next**. Review the search content and select **Submit**.Then select **Done**  <br/>
 
 	**Important:** When you save a new search, the system saves the search and then immediately runs it. By saving this eDiscovery search, the eDiscovery alert should be triggered, thereby creating an email notification that should be sent to the Inbox of all users with tenant admin permissions. You do NOT have to wait for the Search to finish before testing whether the alert sent the email notification. The alert notification system will process the email at the time the search is saved. <br/>
 	
