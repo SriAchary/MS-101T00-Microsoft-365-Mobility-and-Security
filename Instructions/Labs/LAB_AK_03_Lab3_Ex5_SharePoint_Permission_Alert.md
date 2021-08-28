@@ -67,7 +67,7 @@ In the prior task, you configured an alert that will notify Lynne Robbins when a
 
 	**Note:** Based on lab testing, the time for an email to be generated and received in Lynne's Inbox can range from a couple of minutes to an hour. 
 
-8. Once the email arrives in Lynne's Inbox, open the email and review the contents. Scroll to the bottom of the email and select the **View alert details** button. This opens the **Office 365 Security and Compliance** center, displays the **View alerts** window, and opens the **Site collection admin permissions** alert. <br/>
+8. Once the email arrives in Lynne's Inbox, open the email and review the contents. Scroll to the bottom of the email and select the **View alert details** button under the **Office 365 Seurity & Compliance**. This opens the **Office 365 Security and Compliance** center, displays the **View alerts** window, and opens the **Site collection admin permissions** alert. <br/>
 
 	Scroll down through the alert and review all the information. When you are done, select **Close** to close the alert, then close the **View alerts** tab in your browser.
 
