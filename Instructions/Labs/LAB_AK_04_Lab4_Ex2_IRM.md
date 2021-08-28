@@ -16,7 +16,7 @@ In the prior exercise, you set up Information Rights Management in Exchange Onli
 
 5. Enter **IRM test** in the **Subject** line and then enter some text in the message body. 
 
-6. In the menu bar above the message pane, select **Encrypt** (this option appears because you set up IRM in Exchange in the prior task).
+6. In the menu bar above the message pane, click the ellipsis and select **Encrypt** (this option appears because you set up IRM in Exchange in the prior task).
 
 7. This displays a message below it that indicates the message is encrypted. In this message box, select **Change permissions**, which opens a **Change permissions** dialog box.
 
