@@ -1,4 +1,4 @@
-# Learning Path 1 - Lab 1 - Exercise 1 - Set up your Microsoft 365 Tenant
+# Lab 1 - Exercise 1 - Set up your Microsoft 365 Tenant
 
 In the labs for this course, you are taking on the role of Holly Dickson, Adatum Corporation's Enterprise Administrator. Adatum does NOT have legacy, on-premises servers; therefore, you will be implementing Microsoft 365 in a cloud-only deployment. You have deployed Microsoft 365 in a virtualized lab environment, and you have been tasked with completing a pilot project that tests the security, compliance, and device management features in Microsoft 365 as they relate to Adatum's business requirements.
 
@@ -67,11 +67,11 @@ In your role as Holly Dickson, Adatum's Enterprise Administrator, you have been 
 
 16. Select **Save**.
 
-17. Scroll to the top of the **Organization information** pane. Note the message indicating the changes have been saved. Select the **X** in the upper right-hand corner to close the pane.
+17. Scroll to the top of the **Organization information** pane. Note the message indicating **saved**. Select the **X** in the upper right-hand corner to close the pane.
 
 18. Back on the **Organization profile** tab, in the list of organization profile data, select **Release preferences**.
 
-19. In the **Release preferences** pane that appears, select the **Targeted release for select users** option and then select **Save**.<br/>
+19. In the **Release preferences** pane that appears, select the **Targeted release for select users** option and then select **Save**. Saved message appears on the top of the pane.<br/>
 
     **Note:** One of the benefits of Microsoft 365 is the ability to have the latest features and updates automatically applied to your environment, which can reduce maintenance costs and overhead for an organization and allow early-adopter users to test new features. By setting up your Release preferences, you can control how and when your Microsoft 365 tenant receives these updates. <br/>
 
@@ -88,11 +88,11 @@ In your role as Holly Dickson, Adatum's Enterprise Administrator, you have been 
 
     **Note:** Alex, Joni, and Lynne are administrators who are part of Holly's pilot team. Their accounts will be used throughout the labs for this course.
     
-22. Select **Save**.
+22. Select **Save**. At the top of the **Release Preferences** pan, a message appears  users added to the targeted release.
 
 23. After selecting the users, scroll to the bottom of the **Release preferences** pane to verify you selected the required users. Close the **Release preferences** pane once you verified these four users were selected. 
 
-24. Tn the list of organization profile data, select **Custom themes**.
+24. In the list of organization profile data, select **Custom themes**.
 
 25. In the **Custom themes** pane, scroll to the bottom of the pane and select the **Show the user's display name** check box. <br/>
 
@@ -172,7 +172,7 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 
 	**Note:** If you scroll down past this list of the most commonly used admin roles and select **Show all by category**, the complete list of admin roles will be displayed (sorted by category). For Holly, you do not need to view all the admin roles by category, since Holly will be assigned the Global admin role that appears in the list of most commonly used roles.
 
-13. Select the **Global admin**, **Security admin**, and **Attack Simulation Administrator** check box and then select **Next**.
+13. Select the **Global administrator** underr the **global option**, **Security admin** under the **security and Compliance** option, and **Attack Simulation Administrator** check box and then select **Next**.
 
 14. On the **Review and finish** window, review your selections. If anything needs to be changed, select the appropriate **Edit** link and make the necessary changes. Otherwise, if everything is correct, select **Finish adding**. 
 
@@ -184,7 +184,7 @@ Holly Dickson is Adatum’s Enterprise Administrator. Since a Microsoft 365 user
 
 ### Task 4 - Assign RBAC to a Microsoft 365 user account in the Security and Compliance center
 
-In the prior task, you successfully added the Global administrator role to Holly Dickson's account. The global administrator role will give you the majoriety of privileges needed to manage your Microsoft 365 tenant. however, there are some additional privileges that you will need to manage certain services. In the security and compliance center Holly will need to be added to the Organization Management role. By adding Holly to the Organization Management role, Holly's account will have all the nessisary privileges to complete all of the future exercises during this course.
+In the prior task, you successfully added the Global administrator role to Holly Dickson's account. The global administrator role will give you the majority of privileges needed to manage your Microsoft 365 tenant. however, there are some additional privileges that you will need to manage certain services. In the security and compliance center Holly will need to be added to the Organization Management role. By adding Holly to the Organization Management role, Holly's account will have all the necessary privileges to complete all of the future exercises during this course.
 
 1. In your **Edge** browser, you should still have a tab open for the
     **Microsoft 365 admin center**. If so, then select this tab and proceed to
@@ -193,7 +193,7 @@ In the prior task, you successfully added the Global administrator role to Holly
     center**, and then in the left-hand navigation pane, select **Show all**.
 
 2. In the **Microsoft 365 admin center**, in the left-hand navigation pane
-    under **Admin centers**, select **Security**.
+    under **Admin centers**, select **Security**.  If not, in your browser, enter **https://protection.office.com**.
 3. In the **Office 365 Security & Compliance center**, select **Threat Management** in the left-hand
     navigation pane, and then in the expanded group select **Permissions**.
     
@@ -209,9 +209,9 @@ In the prior task, you successfully added the Global administrator role to Holly
 
 9. On the **Choose Members** list, select the **Holly Dickson** account.Then select the **Add** icon.
 
-10. On the **Choose Members** page, select the**Done** icon.
+10. On the **Choose Members** page, select the**Done** icon. Message appears to confirm the newly added members.
 
-11. On the **Editing choose members** page, select the **Save** icon.
+11. On the **Editing choose members** page, select the **Save** icon. It takes back to the **Organization Management** on the right side, newly added user(Holly) will be listed under the **Members**, then select **close**. 
 
 12. Remain logged into LON-CL1 with the Microsoft 365 admin center open in your browser for the next task.
 
@@ -249,7 +249,7 @@ Each user is a key member of your pilot project team. While their user accounts 
 
     Select the key icon for **Alex Wilber**.
 
-11. In the **Reset password** pane for Alex, select **Let me create the password**, enter **Pa55w.rd** in the **Password** field, select and copy this value so that you can paste it in for Joni and Lynne's accounts, and then unselect the **Require this user to change their password when they first sign in** check box.
+11. In the **Reset password** pane for Alex, **uncheck** the **Automatically create password** a textbox appears, enter **Pa55w.rd** in the **Password** field, select and copy this value so that you can paste it in for Joni and Lynne's accounts, and then unselect the **Require this user to change their password when they first sign in** check box.
 
 12. Select **Reset** and then select **Close**.
 
@@ -263,7 +263,7 @@ Each user is a key member of your pilot project team. While their user accounts 
 
 17. In the **Set up the basics** pane, enter **Sales Group** in the **Name** field. You must select the **Description** field to enable the **Next** button. Leave the **Description** field blank and select **Next**. 
 
-18. In the **Assign owners** pane, enter **Joni** in the **Owners** field. A list of users whose name starts with Joni will appear; select **Joni Sherman** and then select **Add**.
+18. In the **+Assign owners** pane, enter **Joni** in the **Owners** field. A list of users whose name starts with Joni will appear; select **Joni Sherman** and then select **Add**.
 
 19. In the **Edit settings** pane, enter **salesgroup** in the **Group email address** field (Note: the domain should be the xxxxxZZZZZZ.onmicrosoft.com domain, which you should have verified in a prior task is the default domain for Adatum). <br/>
 
@@ -283,7 +283,7 @@ Each user is a key member of your pilot project team. While their user accounts 
 
 26. In the **View members** window for the Sales Group, select the **+Add members** button.
 
-27. In the list of users that appears, select **Alex Wilber, Joni Sherman**, and **Lynne Robbins**, select the **Save** button, and then select the **Close** button to finish the add process. <br/>
+27. In the list of users that appears, select **Alex Wilber, Joni Sherman**, and **Lynne Robbins**, select Add(number of users) a message confirms **saved**,and then select the **Close** button to finish the add process. <br/>
 
 	**Note:** You will not add Patti Fernandez to this group. Patti's key role in the pilot project is to test the Privileged Identity Management functionality in the next lab exercise. 
 
@@ -327,7 +327,7 @@ In Lab 3, you will create Alert Policies using the Security and Compliance Cente
 
 	Select the **Microsoft 365 admin center** tab in your Edge browser. 
 
-2. In the **Microsoft 365 admin center**, select **Show all** (if necessary) in the left-hand navigation pane to see all the navigation options. Under **Admin centers,** select **Security**. This will open the Office 365 Security and Compliance center.
+2. In the **Microsoft 365 admin center**, select **Show all** (if necessary) in the left-hand navigation pane to see all the navigation options. Under **Admin centers,** select **Security**. This will open the Office 365 Security and Compliance center. If not, in your browser, enter **https://protection.office.com**.
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left-hand navigation pane, select **Search**, and then under it, select **Audit log search**.
 
@@ -364,4 +364,4 @@ In Module 8, you will perform a Content Search lab that requires that Joni Sherm
 
 11. Leave your browser open and do not close any of the tabs.
 
-# End of Lab 1
+# Procced to Lab 1 - Excercise 2
