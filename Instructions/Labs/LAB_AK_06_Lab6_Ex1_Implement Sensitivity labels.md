@@ -1,4 +1,4 @@
-# Learning Path 6 - Lab 6 - Exercise 1 - Implement Sensitivity labels with Azure Information Protection Unified Labels client
+# Lab 6 - Exercise 1 - Implement Sensitivity labels with Azure Information Protection Unified Labels client
 
 In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have Microsoft 365 deployed in a virtualized lab environment. As you proceed with your Microsoft 365 pilot project, your next steps are to implement Sensitivity Labels with Azure Information Protection (AIP) and Windows Information Protection (WIP) at Adatum. 
 
@@ -63,7 +63,7 @@ In this exercise you will create an Sensitivity Label and add it to the default 
 
 9. On the **Choose protection settings for files and emails** page, select both check boxes for **Encrypt files and emails** and **Mark the content of files**, then select **Next**.
 
-10. On the **Encryption** page, select the **Remove encryption if the file is encrypted** option and then select **Next**.
+10. On the **Encryption** page, select the **Remove encryption if the file is encrypted or email is encrypted** option and then select **Next**.
 
 11. On the **Content Marking** page, set the **Content Marking** toggle switch to **On** and then select all three check boxes. Under each setting, select **Customize text** and then enter the following information for each option (select **Save** after entering the settings for each option): <br/>
 
@@ -87,7 +87,7 @@ In this exercise you will create an Sensitivity Label and add it to the default 
 
 12. On the **Content Marking** page, select **Next**. 
 
-13. On the **Auto-labeling for Office apps** page, set the **Auto-labeling for Office apps** toggle switch to **On**. This enables a series of options that you will update in the next steps.
+13. On the **Auto-labeling for files and emails** page, set the **Auto-labeling for Office apps** toggle switch to **On**. This enables a series of options that you will update in the next steps.
 
 14. Under **Detect content that matches these conditions**, select **+Add condition** and then select **Content contains**.
 
@@ -111,15 +111,15 @@ In this exercise you will create an Sensitivity Label and add it to the default 
 
 22. An **Error** dialog box should appear that states the generated rule blob for the label you are attempting to create is too long. The maximum size of sensitive information type selections you can make at one time per rule is **49152**. By selecting all the sensitive information types like you did in the **Sensitive info types** window a few steps back, you have exceeded this limit. **We purposely had you select all the sensitive information types so that you would receive this error.** We wanted you to experience this error so that if it happens in your production environments, you will know why you received the error and how you can correct it.  <br/>
 
-	To correct this issue, select **OK** in the **Error** dialog box, and then on the **Review your settings and finish** page, scroll down to the **Auto-labeling for Office apps** section and select **Edit**.
+	To correct this issue, select **OK** in the **Error** dialog box, and then on the **Review your settings and finish** page, scroll down to the **Auto-labeling for filea and emails** section and select **Edit**.
 	
-23. On the **Choose protection settings for files and emails** section of the wizard, select **Next** on the **Encryption** page, and then select **Next** on the **Content Marking** page. This will take you to the **Auto-labeling for Office apps** page. 
+23. On the **Choose protection settings for files and emails** section of the wizard, select **Next** on the **Encryption** page, and then select **Next** on the **Content Marking** page. This will take you to the **Auto-labeling for files and emails** page. 
 
-24. On the **Auto-labeling for Office apps** page, to the right of the **Content contains** condition, select the **trash can icon**. This will remove the existing **Content contains** condition for the **PII** label. <br/>
+24. On the **Auto-labeling for files and emails** page, to the right of the **Content contains** condition, select the **trash can icon**. This will remove the existing **Content contains** condition for the **PII** label. <br/>
 
 	In the remaining steps, you will add a new condition that only contains two sensitivity information types rather than all the sensitivity information types like you did originally.
 
-25. On the **Auto-labeling for Office apps** page, under **Detect content that matches these conditions**, select **+Add condition** and then select **Content contains**.
+25. On the **Auto-labeling for files and emails** page, under **Detect content that matches these conditions**, select **+Add condition** and then select **Content contains**.
 
 26. In the **Content contains** window, select the **Add** drop-down arrow and then select **Sensitive info types**.
 
@@ -141,11 +141,11 @@ In this exercise you will create an Sensitivity Label and add it to the default 
 
 35. On the **Publish to users and groups** page, select **Choose users or groups**.
 
-36. On the **Edit Locations** page, select **+Add**. A new window will appear that displays all the Adatum users and groups. Select the top check box to the left of the **Name** field, which will automatically select all the check boxes. Select **Add** and then select **Done**.
+36. On the **Edit Users and groups** page, select **+Add**. A new window will appear that displays all the Adatum users and groups. Select the top check box to the left of the **Name** field, which will automatically select all the check boxes. Select **Add** and then select **Done**.
 
 37. On the **Publish to users and groups** page, select **Next**.
 
-38. On the **Policy settings** page, select the **Apply this label by default to documents and emails** field, and in the drop-down menu that appears, select **PII**. Select the **Users must provide justification to remove a label or lower classification label** checkbox, and then select **Next**.
+38. On the **Policy settings** page, Select the **Users must provide justification to remove a label or lower classification label** checkbox, then select **Next**. On the **Apply a default label to document page** in the drop-down menu that appears, select **PII** then select **Next**. On the **Apply a default label to email page** in the drop-down menu that appears, select **PII** then select **Next**. On the Apply a default label to Power BI Content (Preview)page in the drop-down menu that appears, leave it default value, and then select **Next**.
 
 39. On the **Name your policy** page, enter **PII Policy** in the **Name** field, and then enter (or copy and paste) the following description for this sensitivity label policy: **The purpose of this policy is to detect sensitive information such as ABA bank routing numbers and US social security numbers in emails and documents, and to encrypt this information when it's discovered. The user must provide an explanation for removing the classification label.** Select **Next**.
 
@@ -155,7 +155,7 @@ In this exercise you will create an Sensitivity Label and add it to the default 
 
 **STOP!!** As mentioned at the start of this lab exercise, now that you have created a sensitivity label and assigned it to the default policy, you must wait 24 hours for the label and label policy to propagate through the system before you can perform the next two tasks in this exercise. 
 
-**Do NOT proceed to the next task!** You can continue with the training course and perform the next series of lab exercises. However, when you reach a good break time tomorrow, you should return to this lab exercise and complete Tasks 3 adn 4. In Task 3, when you get to step 14, if you do NOT see the **Sensitiviy** group in the Word ribbon, then you must wait until such time that it appears. 
+**Do NOT proceed to the next task!** You can continue with the training course and perform the next series of lab exercises. However, when you reach a good break time tomorrow, you should return to this lab exercise and complete Tasks 3 and 4. In Task 3, when you get to step 14, if you do NOT see the **Sensitiviy** group in the Word ribbon, then you must wait until such time that it appears. 
 
 **IMPORTANT: The appearance of the Sensitivity group in the Word ribbon is the indicator as to whether the sensitivity label has completed its behind-the-scenes provisioning,** at which time you can complete tasks 3 and 4 of this lab exercise. 
 
@@ -164,7 +164,7 @@ In this exercise you will create an Sensitivity Label and add it to the default 
 
 In this exercise you will use the Sensitivity label that you created in the previous task to classify a document. For this task, you will sign into Microsoft 365 as Alex Wilber, who is a regular user without any elevated privileges.
 
-**IMPORTANT:** You should not perform this task until you have waited 24 since you completed the prior task. After creating the sensitivity label and label policy in task 2, it takes 24 hours for the label and label policy to propagate through the Microsoft 365 system. 
+**IMPORTANT:** You should not perform this task until you have waited 24 hour since you completed the prior task. After creating the sensitivity label and label policy in task 2, it takes 24 hours for the label and label policy to propagate through the Microsoft 365 system. 
 
 **You will know when the propagation is complete and that you can continue with this task when you get to step 14 and you see the Sensitivity label group in the Word ribbon.** If this group does not appear, then the label provisioning process has not finished. If this occurs, then wait until your next break time in class and check this again.
 
@@ -312,4 +312,4 @@ In the prior task, you created a Word document and protected it with a Sensitivi
 31. Remain signed into LON-CL2 and signed into Outlook on the Web as Joni. Do not close your browser.
 
 
-# Proceed to Lab 7 - Exercise 2
+# Proceed to Lab 6 - Exercise 2
