@@ -1,4 +1,4 @@
-# Module 7 - Lab 7 - Exercise 2 - Investigate Your Microsoft 365 Data
+# Lab 7 - Exercise 2 - Investigate Your Microsoft 365 Data
 
 In your role as Holly Dickson, Adatum’s Enterprise Administrator, you have Microsoft 365 deployed in a virtualized lab environment. As you proceed with your Microsoft 365 pilot project, you want to test how Adatum can investigate its Microsoft 365 data. You have decided to focus on performing a content search for deleted emails, which is a common request at Adatum, and then you want to analyze eDiscovery functionality by creating an eDiscovery case. You have asked Joni Sherman to conduct these tests on her client computer.
 
@@ -16,7 +16,7 @@ In this exercise, you will log into Microsoft 365 on LON-CL2 as Joni Sherman, an
 
     ‎**Note**: If you cannot see **Search** in the navigation pane yet, you need to reload the browser tab with the **Security and Compliance Center.**
 
-4. On the **Content search** window, in the **Searches** tab, select **(+) Guided search** on the top menu. This will initiate the **New search** wizard.
+4. On the **Content search** window, in the **Searches** tab, select **(+) New search** on the top menu. This will initiate the **New search** wizard.
 
 5. On the **Name your search** page, enter **Content Search Test** in the **Name** field and then select **Next**.
 
@@ -24,7 +24,7 @@ In this exercise, you will log into Microsoft 365 on LON-CL2 as Joni Sherman, an
 
     Since you do not have time in this lab to search all three locations, select the toggle switch for the first group of locations to turn it **On**, but leave the other two groups turned **Off**, and then select **Next**.
 
-7. On the **Condition card** page, enter **IP address** into the **Keywords** field and then select **Finish**.
+7. On the **Condition card** page, enter **IP address** into the **Keywords** field and then select **Next**. Review the search content and then select **submit**. Then select **finish** and select **Done**.
 
 8. On the **Searches** tab, the **Search query** process will automatically start. In the **Search query** pane on the left, scroll to the bottom, where the **Status** of the query is displayed. Wait for the status to show **Completed**. <br/>
 
@@ -45,13 +45,13 @@ In this task, you will create an eDiscovery case, add an In-Place Hold to the ca
 
 2. The **Office 365 Security and Compliance Center** should still be open in a tab in Microsoft Edge. If so, select that tab now. If not, then enter the following URL in the address bar: **https://protection.office.com.** 
 
-3. In the **Security and Compliance Center**, in the left-hand navigation pane, select **eDiscovery**, and then under it, select **eDiscovery**.
+3. In the **Security and Compliance Center**, in the left-hand navigation pane, select **eDiscovery**, and then under it, select **Core**.
 
-4. On the **eDiscovery** window, select the **(+) Create a case** button that appears above the list of cases.
+4. On the **Core eDiscovery** window, select the **(+) Create a case** button that appears above the list of cases.
 
 5. In the **New case** window, enter **IP Address Violation** in the **Case name** field and select **Save**.
 
-6. On the **eDiscovery** page, select the **Open** button that appears to the left of the **IP Address Violation** case.
+6. On the **Core eDiscovery** page, select the **Open** button that appears to the left of the **IP Address Violation** case.
 
 7. On the **IP Address Violation** window, select the **Holds** tab on the menu bar.
 
@@ -59,7 +59,7 @@ In this task, you will create an eDiscovery case, add an In-Place Hold to the ca
 
 9. On the **Name your hold** page, enter **IP Address Violation - Content** into the **Name** field and then select **Next**.
 
-10. On the **Choose locations** page, for the **Exchange email** location, select the **Choose users, groups, or teams** link.
+10. On the **Choose locations** page, check whether the Exchange mail location is enbaled if not slide the Toggle to **on**, select the **Choose users, groups, or teams** link.
 
 11. On the **Edit locations** page, select the **Choose users, groups, or teams** button.
 
@@ -73,7 +73,7 @@ In this task, you will create an eDiscovery case, add an In-Place Hold to the ca
 
 16. On the **Query conditions** page, enter **IP address** into the **Keywords** box and then select **Next**.
 
-17. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, select the **Create this hold** button.
+17. On the **Review your settings** page, review the values and select **Edit** next to any that need to be modified. When you are satisfied with the settings, select the **submit** and then select **done**.
 
 18. On the **IP address violation - Content** window, select **Close**.
 
@@ -101,4 +101,4 @@ In this task, you will create an eDiscovery case, add an In-Place Hold to the ca
 You have now created an eDiscovery case, added an In-Place Hold to preserve mailbox content, and created a search to discover data from the hold.
 
 
-# End of Lab 8
+# End of Lab 7
