@@ -1,4 +1,4 @@
-# Learning Path 10 - Lab 9 - Exercise 3 - Create Intune Policies 
+# Lab 9 - Exercise 3 - Create Intune Policies 
 
 Many mobile device management (MDM) solutions help protect organizational data by requiring users and devices to meet certain requirements. In Intune, these requirements are referred to as compliance policies. Compliance policies define the rules and settings that users and devices must meet to be compliant. When combined with Conditional Access requirements, administrators can block users and devices that do not meet the rules.
 
@@ -22,7 +22,7 @@ In your role as Holly Dickson, Adatum's Enterprise Administrator, want to send a
 
 7. On the **Create notification** page, note the three steps that appear at the top of the page. You are currently on the step **1 - Basics** page. In the **Name** field, enter **Noncompliant OS version**. Leave all the other options set to their default settings and select **Next**.
 
-8. On the step **2 - Notification message templates** page, select your appropriate **locale**, and then enter **WARNING: Noncompliant device** in the **Subject** field. Then enter **Your Windows 10 or later device is not running a compliant version of the OS. The device has been marked as noncompliant and is now locked.**, select the check box for **IsDefault**. Select **Next**.
+8. On the step **2 - Notification message templates** page, select your appropriate **locale**, and then enter **WARNING: Noncompliant device** in the **Subject** field. Then in the message field enter **Your Windows 10 or later device is not running a compliant version of the OS. The device has been marked as noncompliant and is now locked.**, select the check box for **IsDefault**. Select **Next**.
 
 9. On the step **3 - Review + create** page, review your template settings. If any need to be corrected, select **Previous** to return to the appropriate page and make the necessary edits. If everything looks correct, select **Create**.
 
@@ -141,7 +141,7 @@ In this task, you will create a WIP policy that protects an entire collection of
     
 3. In the **Apps | Overview** window, in the left-hand pane under the **Policy** group, select **App Protection policies**.
 
-4. In the **Apps | App protection policies** window, in the menu bar that appears above the list of policies, select **+Create policy.** In the drop-down menu that appears, select **Windows 10**.
+4. In the **Apps | App protection policies** window, in the menu bar that appears above the list of policies, select **+Create policy.** In the drop-down menu that appears, select **Windows 10 and later**.
 
 5. On the **Create policy** window, note the six steps that appear at the top of the page. You are currently in the step **1 - Basics** page. Enter the following information:
 
@@ -394,4 +394,4 @@ The purpose of this task is to simply review the different platforms that are av
 8. Leave all browser tabs open for the next lab exercise.
 
 
-# Proceed to Lab 10 - Exercise 4
+# Proceed to Lab 9 - Exercise 4
