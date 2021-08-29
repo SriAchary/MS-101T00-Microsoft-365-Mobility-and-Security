@@ -81,13 +81,13 @@ In this task, you will create an eDiscovery case, add an In-Place Hold to the ca
 
 20. On the **Searches** tab, select the **+New search** button. 
 
-21. In the **New search** window, in the **Search query** pane on the left, enter **IP Address** in the **Keywords** field.
+21. In the **New search** window, enter **IP Address Violation - search** in the **Name** field and select **Next**.
 
 22. Under **Locations**, select the **Locations on hold** option.
 
-23. Select **Save &amp; run**.
+23. Select **Next**.
 
-24. In the **Save search** window, enter **IP Address Violation - Search** in the **Name** field and then select **Save**.
+24. In the **Save search** window, in the search query pane on the left , enter **IP Address** in the **Keyword** field and then select **Next**. Review the search content and then select **Submit**.Then select **Done**.
 
 25. This will initiate a search query that looks for the keywords **IP Address**. In the detail pane on the left, scroll to the bottom, where the **Status** of the query is displayed. Wait for the status to show **Completed**. <br/>
 
