@@ -1,4 +1,4 @@
-# Learning Path 3 - Lab 3 - Exercise 4 - Implement Mailbox Permission Alert
+# Lab 3 - Exercise 4 - Implement Mailbox Permission Alert
 
 
 In this exercise you will configure and test an alert that will notify Lynne Robbins when FullAccess permissions are granted to any mailbox within Adatum.
@@ -58,11 +58,11 @@ In the prior task, you configured an alert that will notify Lynne Robbins when F
 
 3. In the **Exchange admin center**, in the left-hand navigation pane, select **recipients**. 
 
-4. In the **recipients** window, the **mailboxes** tab is displayed by default. Select **Alex Wilber** from the list of mailboxes and then select the **pencil (Edit)** icon from the menu bar to edit his mailbox settings.
+4. In the **recipients** window, the **mailboxes** tab is displayed by default. Select **Alex Wilber** from the list of mailboxes and then select the **Manage Mail Delegation** by clicking the ellipsis(...) in the menubar or click on the user name **Alex** to edit his user mailbox settings.
 
-5. In the **Edit User Mailbox** window, select **mailbox delegation** in the left-hand navigation pane.
+5. In the **Edit User Mailbox** window, select **mailbox delegation** under the **Mailbox Permission** in the left-hand navigation pane.
 
-6. Scroll down through the **mailbox delegation** page to the **Full Access** section and select the **(+) plus sign** icon.
+6. If permission need to be provided for only one user **Alex**, three options need to be enabled **1.Read and Manage, 2.Send as, and 3.Send on behalf**. To provide permission click **Edit** in **Read and Manage** and select **+Add Permission** search **Joni Sherman** and select Joni then select **save** and then repeat the same steps for **Send as** and **Send on behalf**, then close the user mailbox window.If multiple user then scroll down through the **mailbox delegation** page to the **Full Access** section and select the **(+) plus sign** icon.
 
 7. In the **Select Full Access** window, select **Joni Sherman**, select the **add -&gt;** button, and then select **OK**.
 
