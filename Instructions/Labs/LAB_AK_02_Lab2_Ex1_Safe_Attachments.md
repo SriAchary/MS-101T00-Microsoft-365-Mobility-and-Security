@@ -1,4 +1,4 @@
-# Learning Path 2 - Lab 2 - Exercise 1 - Implement a Safe Attachments policy 
+# Lab 2 - Exercise 1 - Implement a Safe Attachments policy 
 
 You now have a Global admin account set up for Holly Dickson, and you're signed into Microsoft 365 as Holly. In this first phase of your pilot project for Adatum, you want to create a Safe Attachments policy and turn on Microsoft Defender for Office 365, which provides advanced threat protection for SharePoint, OneDrive, and Microsoft Teams.
 
@@ -10,7 +10,7 @@ In this task, you will turn on Windows Defender for Office 365, which provides a
 
 1. You should still be logged into your Client 1 VM as the **Admin** account, and you should be logged into Microsoft 365 as **Holly Dickson**.
 
-2. In your Edge browser, select the **Microsoft 365 admin center** tab. In the left-hand navigation pane, under **Admin centers**, select **Security**. This will open a new tab in your browser for the **Office 365 Security &amp; Compliance center**. 
+2. In your Edge browser, select the **Microsoft 365 admin center** tab. In the left-hand navigation pane, under **Admin centers**, select **Security**. This will open a new tab in your browser for the **Office 365 Security &amp; Compliance center**. If not, in your browser, enter **https://protection.office.com**.
 
 3. In the **Office 365 Security &amp; Compliance center**, in the left-hand navigation pane select **Threat Management** and then select **Policy**.
 
@@ -27,7 +27,7 @@ In this task, you will turn on Windows Defender for Office 365, which provides a
 
 8. On the **Name your policy** page, enter **AttachmentPolicy1** in the **Name** field and then select **Next**.
 
-9. On the **Users and domains** page, in the **domians** field type **onmicrosoft.com**. Then select the **onmicrosoft.com domain**. Select **Next**.
+9. On the **Users and domains** page, in the **domains** field type **onmicrosoft.com**. Then select the **onmicrosoft.com domain**. Select **Next**.
 
 10. On the **Settings** page, select the **Dynamic Delivery** option. This option will still send the email but will hold the attachment until it has been scanned and marked acceptable.
 
@@ -35,7 +35,7 @@ In this task, you will turn on Windows Defender for Office 365, which provides a
 
 12. In the **Send the attachment to the following email address** field, enter **JoniS@xxxxxZZZZZZ.onmicrosoft.com** (where xxxxxZZZZZZ is the tenant prefix provided by your lab hosting provider), and then select **Next**.
 
-18. On the **Review your settings** page, review the options that you selected. If any need to be corrected, select the appropriate **Edit** option and make the correction. If they all appear correct, select **submit**.
+18. On the **Review your settings** page, review the options that you selected. If any need to be corrected, select the appropriate **Edit** option and make the correction. If they all appear correct, select **submit**. A page appears with the message indicating **New Safe Attachments policy is created**, then select **Done**.
 
 19. If a **Security & Compliance** dialog box appears with a message about updating your organization settings, select **Yes**.
 
