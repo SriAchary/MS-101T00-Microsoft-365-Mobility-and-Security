@@ -1,4 +1,4 @@
-# Learning Path 6 - Lab 6 - Exercise 2 - Implement Windows Information Protection  
+# Lab 6 - Exercise 2 - Implement Windows Information Protection  
 
 Now that Holly Dickson has implemented Sensitivity labels as part of her pilot project at Adatum, she is ready to implement Windows Information Protection (WIP). In your role as Holly Dickson, you will use this exercise to create a WIP policy that will be applied to any member of the WIP Users group who has an MDM-enrolled device in Intune.
 
@@ -26,7 +26,7 @@ In this lesson you will create a WIP policy and assign to it the **WIP Users** g
 
 9. In the **Apps | Overview** page, in the middle pane under the **Policy** group, select **App protection policies**.
 
-10. On the **Apps | App protection policies** page, select **+Create Policy** on the menu bar, and then in the drop-down menu that appears, select **Windows 10**.
+10. On the **Apps | App protection policies** page, select **+Create Policy** on the menu bar, and then in the drop-down menu that appears, select **Windows 10 and later**.
 
 11. In the **Create policy** window, the steps to create a policy are displayed at the top of the page. You are currently in step **1 - Basics**. Enter the following information and then select **Next**:
 
@@ -52,7 +52,7 @@ In this lesson you will create a WIP policy and assign to it the **WIP Users** g
 
 15. In the **Create policy** window, you are now in step **5 - Assignments**. Enter the following information and then select **Next**:
 
-	- Selected groups: select **+Select groups to include**. In the **Select groups to include** pane that appears on the right, select the **WIP Users** group and then select the **Select** button at bottom of the pane.
+	- Included groups: select **+Select groups to include**. In the **Select groups to include** pane that appears on the right, select the **WIP Users** group and then select the **Select** button at bottom of the pane.
 
 16. In the **Create policy** window, you are now in step **6 - Review + create**. Review the settings and if anything is incorrect, select the **Previous** button to return back to the appropriate step to make your correction. If all the settings are correct, then select the **Create** button.
 
@@ -108,4 +108,4 @@ In this exercise you will enroll your LON-CL2 device to Azure AD. You will then 
 You have just enrolled the Client 2 VM to your tenant, so the Client app protection policy **WIP Client Protection** that you configured in the last task could be applied to protect the content of a Word document.
 
 
-# End of Lab 7
+# End of Lab 6
